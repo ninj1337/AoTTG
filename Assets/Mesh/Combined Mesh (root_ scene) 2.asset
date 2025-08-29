@@ -6,7 +6,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: 'Combined Mesh (root: scene) 2'
+  m_Name: Combined Mesh (root_ scene) 2
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
