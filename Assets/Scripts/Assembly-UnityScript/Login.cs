@@ -4,8 +4,17 @@ using System.Collections.Generic;
 using Boo.Lang;
 using UnityEngine;
 
+public abstract class __LoginBase : MonoBehaviour
+{
+	protected abstract IEnumerator _Login();
+	public virtual IEnumerator Login()
+	{
+		return _Login();
+	}
+}
+
 [Serializable]
-public class Login : MonoBehaviour
+public class Login : __LoginBase
 {
 	[Serializable]
 	internal sealed class _0024LoadImage_002421 : GenericGenerator<WWW>
@@ -304,7 +313,7 @@ public class Login : MonoBehaviour
 		return new _0024LoadImage_002421(this).GetEnumerator();
 	}
 
-	public virtual IEnumerator Login()
+	protected override IEnumerator _Login()
 	{
 		return new _0024Login_002426(this).GetEnumerator();
 	}
