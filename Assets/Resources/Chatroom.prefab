@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 114568795563000838}
   maxChars: 140
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0

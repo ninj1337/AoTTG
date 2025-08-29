@@ -50031,7 +50031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3074}
   maxChars: 255
-  caratChar: |
+  caratChar: '|'
   type: 7
   isPassword: 0
   autoCorrect: 0
@@ -50933,7 +50933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3877}
   maxChars: 13
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -51778,7 +51778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3764}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -54134,7 +54134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 2877}
   maxChars: 140
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -54481,7 +54481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3187}
   maxChars: 13
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -54626,7 +54626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3402}
   maxChars: 13
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -55725,7 +55725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3457}
   maxChars: 15
-  caratChar: |
+  caratChar: '|'
   type: 2
   isPassword: 0
   autoCorrect: 0
@@ -56008,7 +56008,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3573}
   maxChars: 10
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -59313,7 +59313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3791}
   maxChars: 2
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -60059,7 +60059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3490}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -62253,7 +62253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3337}
   maxChars: 10
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -62709,7 +62709,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3867}
   maxChars: 10
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -63906,7 +63906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 2740}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -64338,7 +64338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 2781}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -64479,7 +64479,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3804}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -66154,7 +66154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3567}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -67735,7 +67735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 2671}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -70565,7 +70565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 4046}
   maxChars: 20
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 1
   autoCorrect: 0
@@ -71886,7 +71886,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3075}
   maxChars: 2
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -76369,7 +76369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3037}
   maxChars: 140
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -79204,7 +79204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 2763}
   maxChars: 50
-  caratChar: |
+  caratChar: '|'
   type: 0
   isPassword: 0
   autoCorrect: 0
@@ -79278,7 +79278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3389}
   maxChars: 50
-  caratChar: |
+  caratChar: '|'
   type: 2
   isPassword: 0
   autoCorrect: 0
@@ -79915,7 +79915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   label: {fileID: 3218}
   maxChars: 255
-  caratChar: |
+  caratChar: '|'
   type: 7
   isPassword: 0
   autoCorrect: 0
