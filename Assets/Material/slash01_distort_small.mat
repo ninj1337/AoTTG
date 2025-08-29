@@ -13,32 +13,40 @@ Material:
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-    - first:
-        name: _DispMap
-      second:
-        m_Texture: {fileID: 2800000, guid: ffb18bd3683653640a9217fe0edad32a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - first:
-        name: _MaskTex
-      second:
-        m_Texture: {fileID: 2800000, guid: 469cf36464ccc9146afc0ffebb5fbf1d, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DispMap
+        second:
+          m_Texture: {fileID: 2800000, guid: ffb18bd3683653640a9217fe0edad32a, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 469cf36464ccc9146afc0ffebb5fbf1d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
     m_Floats:
-    - first:
-        name: _DispScrollSpeedX
-      second: 0.2
-    - first:
-        name: _DispScrollSpeedY
-      second: 0.2
-    - first:
-        name: _StrengthX
-      second: 0.5
-    - first:
-        name: _StrengthY
-      second: 0.5
+      data:
+        first:
+          name: _DispScrollSpeedX
+        second: 0.2
+      data:
+        first:
+          name: _DispScrollSpeedY
+        second: 0.2
+      data:
+        first:
+          name: _StrengthX
+        second: 0.5
+      data:
+        first:
+          name: _StrengthY
+        second: 0.5
     m_Colors:
-    - first:
-        name: _Color
-      second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+
