@@ -134,7 +134,7 @@ public class Rope_Line : MonoBehaviour
 			AddJointPhysics(i);
 		}
 		CharacterJoint characterJoint = (CharacterJoint)target.gameObject.AddComponent("CharacterJoint");
-		characterJoint.connectedBody = joints[Extensions.get_length((System.Array)joints) - 1].transform.rigidbody;
+		characterJoint.connectedBody = joints[joints.Length - 1].transform.rigidbody;
 		characterJoint.swingAxis = swingAxis;
 		float num2 = lowTwistLimit;
 		SoftJointLimit softJointLimit = characterJoint.lowTwistLimit;
