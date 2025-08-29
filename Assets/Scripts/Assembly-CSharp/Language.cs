@@ -297,13 +297,13 @@ public class Language
 			return 11;
 		case "FRANCAIS":
 			return 12;
-		case "TÜRKÇE":
+		case "T\u00DCRK\u00C7E": // "TÜRKÇE"
 			return 13;
 		case "ARABIC":
 			return 14;
 		case "Thai":
 			return 15;
-		case "Русский":
+		case "\u0420\u0443\u0441\u0441\u043A\u0438\u0439": // "Русский"
 			return 16;
 		case "NEDERLANDS":
 			return 17;
@@ -311,11 +311,11 @@ public class Language
 			return 18;
 		case "DANSK":
 			return 19;
-		case "简体中文":
+		case "\u7B80\u4F53\u4E2D\u6587": // "简体中文"
 			return 1;
-		case "繁體中文_台":
+		case "\u7E41\u9AD4\u4E2D\u6587\u005F\u53F0": // "繁體中文_台"
 			return 8;
-		case "繁體中文_港":
+		case "\u7E41\u9AD4\u4E2D\u6587\u005F\u6E2F": // "繁體中文_港"
 			return 9;
 		default:
 			return 0;
@@ -329,7 +329,7 @@ public class Language
 		case 0:
 			return "ENGLISH";
 		case 1:
-			return "简体中文";
+			return "\u7B80\u4F53\u4E2D\u6587"; // "简体中文"
 		case 2:
 			return "SPANISH";
 		case 3:
@@ -343,9 +343,9 @@ public class Language
 		case 7:
 			return "PORTUGUESE_BR";
 		case 8:
-			return "繁體中文_台";
+			return "\u7E41\u9AD4\u4E2D\u6587\u005F\u53F0"; // "繁體中文_台"
 		case 9:
-			return "繁體中文_港";
+			return "\u7E41\u9AD4\u4E2D\u6587\u005F\u6E2F"; // "繁體中文_港"
 		case 10:
 			return "SLOVAK";
 		case 11:
@@ -353,13 +353,13 @@ public class Language
 		case 12:
 			return "FRANCAIS";
 		case 13:
-			return "TÜRKÇE";
+			return "T\u00DCRK\u00C7E"; // "TÜRKÇE"
 		case 14:
 			return "ARABIC";
 		case 15:
 			return "Thai";
 		case 16:
-			return "Русский";
+			return "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"; // "Русский"
 		case 17:
 			return "NEDERLANDS";
 		case 18:

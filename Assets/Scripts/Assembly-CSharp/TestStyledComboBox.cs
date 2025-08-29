@@ -6,6 +6,6 @@ public class TestStyledComboBox : MonoBehaviour
 
 	private void Start()
 	{
-		comboBox.AddItems("English", "简体中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文", "繁體中文");
+		comboBox.AddItems("English", "\u7B80\u4F53\u4E2D\u6587"/*"简体中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/, "\u7E41\u9AD4\u4E2D\u6587"/*"繁體中文"*/);
 	}
 }

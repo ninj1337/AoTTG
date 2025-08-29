@@ -119,7 +119,7 @@ public class Login : __LoginBase
 						MonoBehaviour.print("Test ok");
 						_0024self__002429.formText = _0024w_002428.text;
 						_0024w_002428.Dispose();
-						if (_0024self__002429.formText == "密码正确，欢迎登录")
+						if (_0024self__002429.formText == "\u5BC6\u7801\u6B63\u786E\uFF0C\u6B22\u8FCE\u767B\u5F55") // "密码正确，欢迎登录"
 						{
 							Application.LoadLevel(1);
 						}
