@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using ExitGames.Client.Photon;
 using UnityEngine;
 
+// EDITOR SUPPORT PATCH
+#if UNITY_EDITOR
+using Debug = UnityEngine.Debug;
+using UnityEditor;
+#endif
+// END PATCH
+
 public static class PhotonNetwork
 {
 	public delegate void EventCallback(byte eventCode, object content, int senderId);
@@ -620,6 +627,31 @@ public static class PhotonNetwork
 
 	static PhotonNetwork()
 	{
+		// EDITOR SUPPORT PATCH
+		#if UNITY_EDITOR
+		if (!EditorApplication.isPlaying && !EditorApplication.isPlayingOrWillChangePlaymode)
+		{
+			//Debug.Log(string.Format("PhotonNetwork.ctor() Not playing {0} {1}", UnityEditor.EditorApplication.isPlaying, UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode));
+			return;
+		}
+		
+		// This can happen when you recompile a script IN play made
+		// This helps to surpress some errors, but will not fix breaking
+		PhotonHandler[] photonHandlers = GameObject.FindObjectsOfType(typeof(PhotonHandler)) as PhotonHandler[];
+		if (photonHandlers != null && photonHandlers.Length > 0)
+		{
+			Debug.LogWarning("Unity recompiled. Connection gets closed and replaced. You can connect as 'new' client.");
+			foreach (PhotonHandler photonHandler in photonHandlers)
+			{
+				//Debug.Log("Handler: " + photonHandler + " photonHandler.gameObject: " + photonHandler.gameObject);
+				photonHandler.gameObject.hideFlags = 0;
+				GameObject.DestroyImmediate(photonHandler.gameObject);
+				Component.DestroyImmediate(photonHandler);
+			}
+		}
+		#endif
+		// END PATCH
+
 		MAX_VIEW_IDS = 1000;
 		PhotonServerSettings = (ServerSettings)Resources.Load("PhotonServerSettings", typeof(ServerSettings));
 		precisionForVectorSynchronization = 9.9E-05f;

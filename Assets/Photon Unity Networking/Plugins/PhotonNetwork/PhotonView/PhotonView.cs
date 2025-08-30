@@ -2,6 +2,12 @@ using System.Reflection;
 using Photon;
 using UnityEngine;
 
+// EDITOR SUPPORT PATCH
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+// END PATCH
+
 [AddComponentMenu("Miscellaneous/Photon View &v")]
 public class PhotonView : Photon.MonoBehaviour
 {
@@ -38,6 +44,16 @@ public class PhotonView : Photon.MonoBehaviour
 	private MethodInfo OnSerializeMethodInfo;
 
 	private bool failedToFindOnSerialize;
+
+	// EDITOR SUPPORT PATCH
+	#if UNITY_EDITOR
+	[ContextMenu("Open PUN Wizard")]
+	void OpenPunWizard()
+	{
+		EditorApplication.ExecuteMenuItem("Window/Photon Unity Networking");
+	}
+	#endif
+	// END PATCH
 
 	public int prefix
 	{
